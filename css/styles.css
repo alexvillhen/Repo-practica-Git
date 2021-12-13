@@ -17,7 +17,15 @@ body{
 footer{
     position: relative;
     bottom:0;
-    border:1px solid blue;
+    background-color: darkgrey;
+    padding:1em;
+    display: flex;
+    justify-content: center;
+}
+
+footer h3{
+    color: darkred;
+    font-family: sans-serif;
 }
 
 header{
@@ -46,3 +54,5 @@ header a{
     text-decoration: none;
     font-weight: bolder;
 }
+
+
