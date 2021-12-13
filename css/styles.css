@@ -1,3 +1,7 @@
+*{
+    font-family: sans-serif;
+}
+
 body{
     margin:0;
 }
@@ -14,4 +18,31 @@ footer{
     position: relative;
     bottom:0;
     border:1px solid blue;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    padding:1em;
+}
+
+header ul{
+    width:80%;
+    padding: 0;
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+header li{
+    margin:0 1em;
+}
+
+header a{
+    color:rgb(204, 152, 20);
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: bolder;
 }
